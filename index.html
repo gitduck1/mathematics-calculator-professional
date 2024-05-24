@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fork | the best utensil</title>
+  <link rel="icon" sizes="192x192" href="img/code-fork-solid (1).png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBdoTeUbqx2kf2VItSZa-mWevPS1G5CQI4",
+    authDomain: "gaygallium.firebaseapp.com",
+    projectId: "gaygallium",
+    storageBucket: "gaygallium.appspot.com",
+    messagingSenderId: "575741203550",
+    appId: "1:575741203550:web:1bd29867db223136a750cf",
+    measurementId: "G-X2L8VBGCVV"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  <div class="particle-container" id="particles-js"></div>
+  <div class="button-container">
+    <button class="glow-on-hover" onclick="window.open('https://server-bulk.web.app', '_blank')" type="button">This site is being deprecated, press to go to new site</button>
+  </div>
+      <div class="button-container-bottom"> 
+        <button class="glow-on-hover-bottom" onclick="window.open('https://github.com/gitduck1/gitduck1.github.io', '_blank')" type="button"><img src="/img/github.svg"></button>
+    </div> 
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.js loaded - callback');
+    });
+  </script>
+</body>
+</html>
